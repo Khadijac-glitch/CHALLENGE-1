@@ -1,0 +1,56 @@
+body{
+    background: rgb(8, 8, 66);
+}
+form input{
+    width: 220px;
+}
+.btn{
+    background: rgb(8, 8, 66);
+    color: aliceblue;
+    width: 420px;
+}
+.blac{
+    border-radius:3%;
+}
+.whit img{
+    height: 500px;
+    position: relative;
+    top: 10px;
+}
+@media (max-width: 992px){
+    .btn{
+        width: 200px;
+        height: 40px;
+        font-size: 8px;
+    }
+    .whit img{
+        position: relative;
+        top: 60px;
+        right: 10px;
+    }
+}
+@media (max-width: 768px){
+    .btn{
+        width: 160px;
+        height: 40px;
+        font-size: 8px;
+    }
+    .whit img{
+        height: 250px;
+        width: 250px;
+        border: 5%;
+        position: absolute;
+        right: 70px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .vert{
+        position: relative;
+        top: 220px;
+        background: white;
+    }
+    .blac{
+    
+    }
+}
