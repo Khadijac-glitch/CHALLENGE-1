@@ -4,10 +4,18 @@ body{
 form input{
     width: 220px;
 }
-.btn{
+
+.main-btn{
     background: rgb(8, 8, 66);
     color: aliceblue;
-    width: 420px;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    padding: 15px 27px;
+    border-radius: 5px;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-decoration: none;
 }
 .blac{
     border-radius:3%;
@@ -18,10 +26,10 @@ form input{
     top: 10px;
 }
 @media (max-width: 992px){
-    .btn{
+    .main-btn{
         width: 200px;
-        height: 40px;
-        font-size: 8px;
+        height: 60px;
+        font-size: 10px;
     }
     .whit img{
         position: relative;
@@ -30,10 +38,10 @@ form input{
     }
 }
 @media (max-width: 768px){
-    .btn{
+    .main-btn{
         width: 160px;
-        height: 40px;
-        font-size: 8px;
+        height: 60px;
+        font-size: 10px;
     }
     .whit img{
         height: 250px;
